@@ -8,10 +8,11 @@ export default function HeroSection() {
       <div className="relative max-w-6xl mx-auto px-6 text-center">
         <div className="mb-6">
           <h1 className="text-5xl font-bold font-montserrat mb-4">
-            🏰 CraftWorld Магазин
+            🏰 CraftWorld Сервер
           </h1>
           <p className="text-xl text-emerald-100 max-w-2xl mx-auto">
-            Получите эксклюзивные привилегии и станьте легендой нашего сервера!
+            Купите проходку на наш уникальный сервер всего за 100₽ и начните
+            своё приключение!
           </p>
         </div>
 
@@ -20,8 +21,8 @@ export default function HeroSection() {
             size="lg"
             className="bg-amber-500 hover:bg-amber-600 text-black font-semibold"
           >
-            <Icon name="Crown" size={20} />
-            Выбрать ранг
+            <Icon name="ShoppingCart" size={20} />
+            Купить проходку 100₽
           </Button>
           <Button
             variant="outline"
@@ -35,7 +36,7 @@ export default function HeroSection() {
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
           <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
             <div className="text-2xl mb-2">⚡</div>
-            <div className="text-lg font-semibold">Мгновенная активация</div>
+            <div className="text-lg font-semibold">Доступ навсегда</div>
           </div>
           <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
             <div className="text-2xl mb-2">🔒</div>

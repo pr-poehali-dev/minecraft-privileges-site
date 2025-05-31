@@ -6,11 +6,11 @@ export default function CTASection() {
     <section className="py-16 px-6 bg-gradient-to-r from-emerald-600 to-green-500">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl font-bold font-montserrat text-white mb-6">
-          Готовы начать приключение? 🚀
+          Готовы присоединиться? 🚀
         </h2>
         <p className="text-xl text-emerald-100 mb-8 max-w-2xl mx-auto">
-          Присоединяйтесь к тысячам игроков, которые уже получили свои
-          привилегии и наслаждаются уникальным игровым опытом!
+          Всего 100₽ — и вы получаете пожизненный доступ к нашему уникальному
+          серверу с тысячами довольных игроков!
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -18,8 +18,8 @@ export default function CTASection() {
             size="lg"
             className="bg-amber-500 hover:bg-amber-600 text-black font-semibold"
           >
-            <Icon name="Crown" size={20} />
-            Купить привилегию
+            <Icon name="ShoppingCart" size={20} />
+            Купить проходку 100₽
           </Button>
           <Button
             variant="outline"
