@@ -1,14 +1,15 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/HeroSection";
+import PrivilegesSection from "@/components/PrivilegesSection";
+import FeaturesSection from "@/components/FeaturesSection";
+import CTASection from "@/components/CTASection";
 
-const Index = () => {
+export default function Index() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4 color-black text-black">Добро пожаловать!</h1>
-        <p className="text-xl text-gray-600">тут будет отображаться ваш проект</p>
-      </div>
+    <div className="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800">
+      <HeroSection />
+      <PrivilegesSection />
+      <FeaturesSection />
+      <CTASection />
     </div>
   );
-};
-
-export default Index;
+}
